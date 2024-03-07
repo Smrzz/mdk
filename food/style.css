@@ -1,9 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
+}
+
+:root {
+    --subtitle-font:
 }
 
 header {
@@ -30,7 +34,7 @@ header {
     margin-right: 130px;
 }
 
-.nav{
+.nav {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
@@ -47,7 +51,7 @@ header {
     max-width: 553px;
 }
 
-.card-block { 
+.card-block {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -86,7 +90,7 @@ input[type="text"]:focus {
     outline: none;
 }
 
-.card-block{
+.card-block {
     border: 1px solid #E0E0E0;
     border-radius: 33px;
     max-width: 159px;
@@ -127,18 +131,18 @@ input[type="text"]:focus {
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
-    color:#68A47F;
+    color: #68A47F;
 
 }
 
-.title{
+.title {
     font-family: Roboto;
     font-size: 70px;
     font-weight: 800;
     line-height: 82px;
     letter-spacing: 0em;
     text-align: left;
-    color:#274C5B;
+    color: #274C5B;
 }
 
 .main-btn {
@@ -154,7 +158,183 @@ input[type="text"]:focus {
     font-weight: 700;
 }
 
-.main-btn:hover{
+.main-btn:hover {
     border: 1px solid #274C5B;
     cursor: pointer;
+}
+
+.img {
+    width: 682.24px;
+    height: 367px;
+}
+
+.frame2 {
+    width: 100%;
+    height: 711px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-offers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.natural {
+    display: flex;
+    position: relative;
+}
+
+.natural-text {
+    position: absolute;
+    margin: 109px 350px 110px 55px;
+    color: #fff;
+}
+
+.subtitle-natural {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    text-align: left;
+
+}
+
+.title-natural {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.offer {
+    display: flex;
+    position: relative;
+}
+
+.offer-text {
+    position: absolute;
+    margin: 109px 350px 110px 55px;
+
+}
+
+.subtitle-offer {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #7EB693;
+}
+
+.title-offer {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    color: #274C5B;
+}
+
+
+.frame3 {
+    width: 100%;
+    min-height: 1067px;
+    background: url(pic/Image.png);
+    background-color: #F9F8F8;
+    display: flex;
+}
+
+.contents-frame3 {
+    margin: 186px 260px 199px 958px;
+}
+
+.subtitle-fr3 {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #7EB693;
+}
+
+.title-fr3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #274C5B;
+}
+
+.text-fr3 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #525C60;
+}
+
+.content-fr3 {
+    margin: 46px 138px 46px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.organic-foods {
+    display: flex;
+}
+
+.title-content {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29px;
+    color: #274C5B;
+}
+
+.text-content {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #525C60;
+}
+
+.organic-pic {
+    width: 101px;
+    height: 101px;
+}
+
+.quality-standards {
+    display: flex;
+}
+
+.shop-now {
+    width: 220px;
+    height: 79px;
+    border-radius: 16px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #274C5B;
+    border: none;
+}
+
+.shop-now:hover{
+    border: 2px solid #fff;
+}
+
+.organic-text {
+    margin: 2px auto 2px 19px;
+}
+
+.quality-text {
+    margin: 2px auto 2px 19px;
 }
