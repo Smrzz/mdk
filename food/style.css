@@ -242,7 +242,7 @@ input[type="text"]:focus {
 
 
 .frame3 {
-    width: 100%;
+    max-width: 1920px;
     min-height: 1067px;
     background: url(pic/Image.png);
     background-color: #F9F8F8;
