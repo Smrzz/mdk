@@ -3,6 +3,15 @@
 * {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
 }
 
 header {
@@ -86,4 +95,84 @@ header {
 
 .main-pic {
     margin-top: -95px;
+
+}
+
+.popular-products {
+    display: flex;
+    width: 1920px;
+    height: 937px;
+    background-color: #DDBB9F;
+    flex-direction: column;
+    gap: 67px;
+}
+
+.popular {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    margin-top: 87px;
+    margin-left: 268px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    margin-left: 268px;
+    gap: 55px;
+}
+
+.card-product {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 305px;
+    max-height: 638px;
+    padding-top: 38px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+}
+
+.card-image {
+    height: 380px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+    gap: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.price-card {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.info-card {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-btn {
+    width: 156px;
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-btn:hover {
+    border: 1px solid black;
+    cursor: pointer ;
 }
