@@ -1,6 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
 }
 
+header {
+    display: flex;
+    width: 1920px;
+    height: 100px;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+
+.logo {
+    width: 194px;
+    height: 100%;
+    margin-left: 268px;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 602px;
+    height: 22px;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin-left: 177px;
+}
+
+.nav {
+    list-style-type: none;
+    cursor: pointer;
+}
