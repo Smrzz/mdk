@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 body {
@@ -174,5 +175,46 @@ header {
 
 .card-btn:hover {
     border: 1px solid black;
-    cursor: pointer ;
+    cursor: pointer;
+}
+
+.categ-contents {
+    display: flex;
+    width: 1920px;
+    height: 1162px;
+    background-color: #DDBB9F;
+    gap: 110px;
+    padding-left: 268px;
+    padding-top: 82px;
+    flex-direction: column;
+}
+
+.title-categ {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+}
+
+.container-cards {
+    display: flex;
+    gap: 104px 55px;
+    width: 1385px;
+    height: 823px;
+    flex-wrap: wrap;
+}
+
+.text-categ {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+}
+
+.categ-cards {
+    gap: 20px;
+    display: flex;
+    width: 305px;
+    align-items: center;
+    flex-direction: column;
 }
