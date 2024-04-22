@@ -41,13 +41,20 @@
     </header>
     <main>
         <section class="login-block">
-            <div class="login-content">
+            <div class="signup-content">
                 <h2 class="login-title">Авторизаиция</h2>
-                    <form action="#" class="form">
-                        <input type="text" class="input" placeholder="Почта / телефон">
-                        <input type="password" class="input" placeholder="Пароль">
+                   <form action="vendor/signup.php" method="post" enctype="multipart/form-data">
+                        <input type="text" name="login" class="input" placeholder="Почта / телефон" required>
+                        <input type="password" name="password" class="input" placeholder="Пароль" required>
+                        <input type="password" name="password_confirm" class="input" placeholder="Павторите пароль" required>
                         <button class="login-btn" type="submit">Войти</button>
-                        <a href="signup.html"><h4 class="input-text">Нет аккаунта?</h4></a>
+                        <a href="login.php"><h4 class="input-text">Есть аккаунт?</h4></a>
+                        <?php
+            if ($_SESSION['message']) {
+                echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
+            }
+            unset($_SESSION['message']);
+        ?>
                     </form>
             </div>
         </section>
