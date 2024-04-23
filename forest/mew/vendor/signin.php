@@ -18,7 +18,7 @@
             "email" => $user['email']
         ];
 
-        header('Location: ../admin.php');
+        header('Location: ../cabinet.html');
 
     } else {
         $_SESSION['message'] = 'Не верный логин или пароль';

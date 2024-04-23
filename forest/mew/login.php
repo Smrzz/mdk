@@ -31,7 +31,7 @@
                     <li class="nav">Бренды</li>
                 </a>
             </ul>
-            <a href="login.html" class="user-link">
+            <a href="login.php" class="user-link">
                 <div class="user">
                     <img src="pics/user.svg" class="user-pic">
                     <h5 class="user-text">Личный кабинет</h5>
@@ -43,7 +43,7 @@
         <section class="login-block">
             <div class="login-content">
                 <h2 class="login-title">Авторизаиция</h2>
-                   <form action="vendor/signin.php" method="post">
+                   <form action="vendor/signin.php" method="post" class="form">
                         <input type="text" name="login" class="input" placeholder="Почта / телефон" required>
                         <input type="password" name="password" class="input" placeholder="Пароль" required>
                         <button class="login-btn" type="submit">Войти</button>
